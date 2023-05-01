@@ -18,9 +18,9 @@ En este proyecto, el usuario puede ingresar un texto y al presionar el botón "E
 
 💻 Tecnologías utilizadas
 
-Html
-Css
-JavaScript
+- Html
+- Css
+- JavaScript
 
 🙋 Autor
 
