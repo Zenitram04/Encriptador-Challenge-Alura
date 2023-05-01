@@ -1,0 +1,23 @@
+.area_Principal{ 
+    background-image: url("/Imagenes/Proceso.jpg");
+     padding: 10px 0 20px 0;
+}
+
+.container_proceso{
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.campo_text{
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@media screen and (max-width: 1024px){
+    .campo_text{
+        display: block;
+        height: auto;
+    }
+}

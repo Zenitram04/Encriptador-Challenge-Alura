@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/reset.css">
+    <link rel="stylesheet" href="./Css/normalize.css">
+    <link rel="stylesheet" href="./Css/header.css">
+    <link rel="stylesheet" href="./Css/Campos de texto/area-principal.css">
+    <link rel="stylesheet" href="./Css/Campos de texto/inicio_proceso.css">
+    <link rel="stylesheet" href="./Css/Campos de texto/salida_text.css">
+    <link rel="stylesheet" href="./Css/Botones/principal.css">
+    <link rel="stylesheet" href="./Css/Botones/btn1.css">
+    <link rel="stylesheet" href="./Css/Botones/btn2.css">
+    <link rel="stylesheet" href="./Css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eczar&display=swap" rel="stylesheet">
+    <title>Challenge Encriptador Alura</title>
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="encabezado__container">
+            <img class="logoAlura" src="/Imagenes/logo-alura.png" alt="logo de alura">
+            <h1 class="titulo">Encriptador & Desencriptador de Texto Alura </h1>
+            <img class="logoOne" src="/Imagenes/logo-oracle-next-eduaction.png"
+                alt="logo de logo-oracle-next-eduaction">
+        </div>
+    </header>
+
+    <main class="area_Principal">
+        <section class="container_proceso">
+            <div class="campo_text">
+                <div class="text_ingreso">
+                    <textarea cols="30" rows="10" class="text_area" placeholder="Ingrese el texto aquí"></textarea>
+                    <figure class="areaAdvertencia">
+                        <img src="./Imagenes/advertencia.png" alt="Signo de advertencia" class="imagen_advertencia">
+                        <figC class="texto_advertencia">Solo letras minúsculas y sin acentos</ficC>
+                    </figure>
+                </div>
+
+                <div class="contenido_salida">
+                    <div class="salida_principal">
+                        <div class="text_mensaje">
+                            <textarea class="text_desencriptado" cols="20" rows="10"></textarea>
+                        </div>
+
+                        <div id="mensaje_informacion">
+                            <img src="./imagenes/muñecoAlura.png" alt="muñeco de alura" class="imagen_mensaje">
+                            <p class="text1">Mensaje no encontrado</p>
+                            <p class="text2">Ingresa el texto que desees encriptar o desencriptar.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bloque_botones">
+            <div class="bloque_contenedor_botones">
+                <div class="contenido__botones--contenido1">
+                    <button class="boton__encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="boton__desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+                <div class="contenido__botones--contenido2">
+                    <button class="boton__copiar" onclick="copiar()">Copiar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="rodapie__texto text_footer"> &copy Desarrollado por Jose Martinez</p>
+        <p class="rodapie__texto text_footer">Toda la gloria y la honra sea para ti mi Dios</p>
+        <div class="logos_redes">
+            <a href="https://www.linkedin.com/in/jose-martinez-26-dev/" target="_blank"><img class="logoLinkedin"
+                    src="./Imagenes/logo-linkedin.png" alt="Logo de Lin"></a>
+            <a href="https://twitter.com/JosDavidMarti14" target="_blank"><img class="logoTwitter"
+                    src="./Imagenes/logoTwitter.png" alt="Logo de twitter"></a>
+            <a href="https://github.com/Zenitram04" target="_blank"><img class="logoGithub"
+                    src="./Imagenes/logoGithub.png" alt="Logo de github"></a>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>

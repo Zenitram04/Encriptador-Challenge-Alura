@@ -1,0 +1,45 @@
+.boton__encriptar{
+    background-color: white;
+    border: 1px solid var(--color-azul);
+    opacity: 0.7;
+    border-radius: 1rem;
+    cursor: pointer;
+    height: 3.5rem;
+    width: 14rem;
+    font-size: 1.8rem;
+}
+
+.boton__desencriptar{
+    background-color: white;
+    border: 1px solid var(--color-azul);
+    opacity: 0.7;
+    border-radius: 1rem;
+    color: black;
+    cursor: pointer;
+    height: 3.5rem;
+    margin-left: 2rem;
+    width: 14rem;
+    font-size: 1.8rem;
+}
+
+/* Diseño para tablets */
+@media screen and (max-width: 1024px){
+    .boton__encriptar{
+        width: 11rem;
+    }
+    .boton__desencriptar{
+        width: 11rem;
+    }
+}
+
+/* Diseño para moviles */
+@media screen and (max-width: 768px){
+    .boton__encriptar{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .boton__desencriptar{
+        margin: 0;
+        width: 100%;
+    }
+}

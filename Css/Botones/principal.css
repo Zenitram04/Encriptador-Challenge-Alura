@@ -1,0 +1,29 @@
+.bloque_botones{
+    /* background: red; */
+    padding: 20px 0;
+}
+
+.bloque_contenedor_botones{
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    font-family: 'Eczar', sans-serif;
+}
+
+/* Diseño para tablets */
+@media screen and (max-width: 1024px){
+    .bloque_botones{
+        padding: 20px 0 10px 0;
+    }
+    .bloque_contenedor_botones{
+        justify-content: center;
+    }
+}
+
+/* Diseño para moviles */
+@media screen and (max-width: 768px){
+    .bloque_contenedor_botones{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,33 @@
+.contenido__botones--contenido2{
+    margin-left: 2rem;
+}
+
+.boton__copiar{
+    background-color: #D8DFE8;
+    border:1px solid var(--color-azul);
+    opacity: 0.7;
+    border-radius: 1rem; 
+    color: black;
+    cursor: pointer;
+    width: 12rem;
+    height: 3.5rem;
+    font-size: 1.8rem;
+}
+
+/* Diseño para tablets */
+@media screen and (max-width: 1024px){
+    .boton__copiar{
+        width: 11rem;
+    }
+}
+
+/* Diseño para moviles */
+@media screen and (max-width: 768px){
+    .contenido__botones--contenido2{
+        margin: 0;
+    }
+    .boton__copiar{
+        margin-top: 20px;
+        width: 100%;
+    }
+}

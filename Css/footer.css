@@ -1,0 +1,86 @@
+.footer{
+    background-color: black;
+    padding: 0.28rem 0;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text_footer{
+    font-family: 'Eczar', sans-serif;
+    color: #cfdbfd;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.logos_redes{
+    display: flex;
+    text-align: center;
+}
+
+.logoGithub{
+    width: 2.3rem;
+    margin-right: 1.3vw;
+    margin-top: 0.2rem; 
+}
+
+.logoLinkedin{
+    width: 3rem;
+}
+
+.logoTwitter{
+    width: 3.1rem;
+}
+
+@media screen and (max-width: 375px){
+    .footer{
+        flex-direction: column;
+        vertical-align: center;
+        align-items: normal;
+    }
+
+    .text_footer{
+        padding-bottom: 1.5rem;
+    }
+
+    .logos_redes{
+        padding: 0 2.5rem 1rem 2.5rem;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 768px){
+    .footer{
+        flex-wrap: wrap;
+        padding: 1.5rem 1rem;
+        align-items: normal;
+        vertical-align: center;
+    }
+
+    .text_footer{
+        font-size: 1.2rem;
+        width: 45%;
+    }
+
+    .logos_redes{
+        margin-top: 1.5rem;
+        display: flex;
+    }
+
+    .logoGithub{
+        width: 3.2rem;
+        margin-right: 11vw;
+        margin-top: 0.2rem;
+    }
+    
+    .logoLinkedin{
+        width: 3.9rem;
+        margin-right: 10vw;
+    }
+    
+    .logoTwitter{
+        width: 4rem;
+    }
+}
